@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    background-image: url('background.avif');
+    height: 800px;
+}
+
+.odin-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    /* position: absolute;
+    top: 33.33%;
+    left: 0;
+    right: 0; */
+}
+
+.odin-background img, .odin-background p {
+    height: 100px;
+    object-fit: contain;
+}
