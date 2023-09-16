@@ -17,22 +17,23 @@ html {
 }
 
 .background {
-    height: 100%;
+    /* height: 100%; */
     background-image: url('background1.avif');
     background-size: contain;
     background-repeat: no-repeat;
     width: 325px;
-    background-color: rgba(0, 0, 0, 0.3);
+    
 }
 
 .left {
     display: inline-flex;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .odin-background {
     margin-top: 30%;
     display: flex;
     justify-content: center;
-    height: 12.5%
+    height: 12.5%;
+    background-color: rgba(0, 0, 0, 0.4);
 }
