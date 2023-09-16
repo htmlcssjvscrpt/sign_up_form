@@ -14,26 +14,42 @@ html {
 
 .container {
     display: flex;
+    height: 85%;
 }
 
 .background {
-    /* height: 100%; */
+    height: 100%;
     background-image: url('background1.avif');
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
     width: 325px;
-    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .left {
-    display: inline-flex;
-    /* width: 100%; */
+    height: 100%;
 }
 
 .odin-background {
-    margin-top: 30%;
+    margin-top: 10%;
     display: flex;
+    /* align-items: center; */
     justify-content: center;
-    height: 12.5%;
     background-color: rgba(0, 0, 0, 0.4);
+    height: 12.5%;
+    width: 100%;
+    font-size: 60px;;
 }
+
+.credit {
+    margin-top: 300px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.odin-background img {
+    max-height: 100%;
+    width: auto;
+}
+
